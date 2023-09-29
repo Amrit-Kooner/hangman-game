@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <script defer type="module" src="app/main.js"></script>
+    <link rel="stylesheet" href="/css/maincss.css">
+</head>
+<body>
+    <h1 class="title">Time To Start Guessing!</h1>
+    <hr>
+
+    <div class="main-game">
+        <div class="stats">
+            <p>Guesses left: <span class="guessAmount"></span></p>
+            <p>Guessed: <span class="guessedWords"></span></p>
+            <p>Hidden Word: <span class="hiddenWord"></span></p>
+        </div>
+
+        <form>
+            <input class="formInput" type="text" placeholder="Enter...">
+            <input class="formBtn" type="submit" value="GUESS">
+        </form>
+
+        <div class="img-container"> 
+            <img class="image" src="/img/guess.gif">
+        </div>
+
+    </div>
+    
+    <button id="resetBtn">RESTART</button> 
+
+    <button id="quitBtn">QUIT</button>
+
+</body>
+</html>
