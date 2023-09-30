@@ -102,8 +102,8 @@ class Hangman {
         : `YOU LOSE! <br> <hr> The Word Was - '<u>${this.word}</u>'!` 
 
         imageElement.src = (bool) 
-        ? "/img/winner.gif"
-        : "/img/loser.gif";
+        ? "img/winner.gif"
+        : "img/loser.gif";
     }
 }
 
