@@ -1,5 +1,5 @@
 # hangman-game
 
-Live Demo: 
+Live Demo: https://amrit-kooner.github.io/hangman-game/start.html
 
-View on my Portfolio:
+View my Portfolio: https://amrit-kooner.github.io/personal-portfolio/project-hangman.html
